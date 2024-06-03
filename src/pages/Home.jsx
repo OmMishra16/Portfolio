@@ -1,3 +1,4 @@
+
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import GoogleIcon from '@mui/icons-material/Google';
@@ -9,7 +10,7 @@ function Home() {
     <div className="min-h-screen bg-gray-900 text-white pt-48">
 
       <div className="flex flex-col items-center justify-center h-full ">
-        <h1 className="text-6xl font-bold mb-4">Om Mishra</h1><span className="text-green-500"><Typewriter text={["I am an AI Enthusiast!" , "Me to papa hu "]} typingSpeed={150} />
+        <h1 className="text-6xl font-bold mb-4">Om Mishra</h1><span className="text-xl text-green-500"><Typewriter text={["I am an AI Enthusiast!" , "I am a CSE Student "]} typingSpeed={150} />
           </span>
         
         <Navbar/>
